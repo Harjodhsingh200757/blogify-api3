@@ -10,3 +10,5 @@ const getAllPosts = (req,res) =>{
     });
 };
 module.exports = {getAllPosts};
+
+// Posts controller extracted from routes
