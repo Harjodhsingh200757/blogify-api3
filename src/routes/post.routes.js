@@ -6,4 +6,5 @@ const postController = require('C:/Users/HARJOT/Desktop/backend 4.0/src/controll
 //     res.send("This message is from the modular routes folder");
 // });
 router.get("/",postController.getAllPosts);
+router.get("/:postId",postController.getPostById);
 module.exports = router;
